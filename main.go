@@ -5,6 +5,7 @@ import (
 
 	"sort/bubbleSort"
 	"sort/quickSort"
+	"sort/selectionSort"
 )
 
 func main() {
@@ -13,4 +14,5 @@ func main() {
 	fmt.Println(arr)
 	fmt.Println(quickSort.QuickSort(arr))
 	fmt.Println(bubbleSort.BubbleSort(arr))
+	fmt.Println(selectionSort.SelectionSort(arr))
 }
