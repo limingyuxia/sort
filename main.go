@@ -9,7 +9,8 @@ import (
 	// "sort/hillSort"
 	// "sort/mergeSort"
 	// "sort/heapSort"
-	"sort/countingSort"
+	// "sort/countingSort"
+	"sort/bucketSort"
 )
 
 func main() {
@@ -23,5 +24,6 @@ func main() {
 	// fmt.Println(hillSort.HillSort(arr))
 	// fmt.Println(mergeSort.MergeSort(arr))
 	// fmt.Println(heapSort.HeapSort(arr))
-	fmt.Println(countingSort.CountingSort(arr, 78))
+	// fmt.Println(countingSort.CountingSort(arr, 78))
+	fmt.Println(bucketSort.BucketSort(arr))
 }
