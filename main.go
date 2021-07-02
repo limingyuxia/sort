@@ -6,7 +6,8 @@ import (
 	// "sort/insertionSort"
 	// "sort/quickSort"
 	// "sort/selectionSort"
-	"sort/hillSort"
+	// "sort/hillSort"
+	"sort/mergeSort"
 )
 
 func main() {
@@ -17,5 +18,6 @@ func main() {
 	// fmt.Println(bubbleSort.BubbleSort(arr))
 	// fmt.Println(selectionSort.SelectionSort(arr))
 	// fmt.Println(insertionSort.InsertionSort(arr))
-	fmt.Println(hillSort.HillSort(arr))
+	// fmt.Println(hillSort.HillSort(arr))
+	fmt.Println(mergeSort.MergeSort(arr))
 }
